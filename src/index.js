@@ -10,5 +10,5 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
            console.log(preferences[preferences[preferences[i] - 1] - 1]);
        }
    }
-    return count/3;
+   return count/3;
 };
